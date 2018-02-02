@@ -4,7 +4,7 @@
 
 - Run npm install to install the dependencies.
 - Go to ```www.forecast.io``` to register for a new account and get your key for accessing the weather data
-- create a new file at the root of your project with name ``key.js`` create a new ``const key = 'your key'`` and export your key with ```module.exports.key = key;```
+- Replace all the variable ```${keys}``` in the weather url with your key in ```weather.js``` and ```app-promise.js``` with your key
 
 ## Running the app
 To run the app, follow the following steps:

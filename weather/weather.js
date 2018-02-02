@@ -1,5 +1,4 @@
 const request = require('request')
-const key = require('../key')
 
 const getWeather = (lat, lng, callback) => {
   request({
